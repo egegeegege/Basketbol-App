@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketbol Takım Dağıtıcı</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Basketbol Takım Dağıtıcı</h1>
+      <div class="card-box">
+        <a href="card.html" class="card-create-button">Oyuncu Kartı Oluştur</a>
+      </div>
+      <div>
+        <h3>Oyuncuları Seçin (6 kişi)</h3>
+        <div class="players-select" id="playersSelect"></div>
+        <p><span id="selectedPlayerCount">Seçilen oyuncu sayısı: 0/6</span></p>
+        <button onclick="distributeTeams()">Takımları Dağıt</button>
+      </div>
+      <div class="teams">
+        <div class="team" id="team1">
+          <h2>Takım 1</h2>
+          <p><strong>Ortalama Rating: </strong><span id="team1AvgRating"></span></p>
+          <ul></ul>
+        </div>
+        <div class="team" id="team2">
+          <h2>Takım 2</h2>
+          <p><strong>Ortalama Rating: </strong><span id="team2AvgRating"></span></p>
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="js/app.js"></script>
