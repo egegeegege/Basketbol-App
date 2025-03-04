@@ -3,21 +3,21 @@ const players = [
     name: 'Ege',
     position: 'Şutör-Gard',
     image: 'img/placeholder.png',
-    speed: 75,
-    shooting: 70,
+    speed: 85,
+    shooting: 72,
     passing: 85,
-    dribbling: 77,
-    defense: 90,
+    dribbling: 83,
+    defense: 87,
     physical: 90
   },
   {
     name: 'Kerem',
     position: 'Oyun Kurucu',
     image: 'img/placeholder.png',
-    speed: 76,
+    speed: 83,
     shooting: 84,
     passing: 88,
-    dribbling: 80,
+    dribbling: 82,
     defense: 83,
     physical: 80
   },
@@ -25,11 +25,11 @@ const players = [
     name: 'Kaan',
     position: 'Uzun-Forvet',
     image: 'img/placeholder.png',
-    speed: 82,
+    speed: 80,
     shooting: 87,
     passing: 84,
     dribbling: 82,
-    defense: 88,
+    defense: 87,
     physical: 88
   },
   {
@@ -48,11 +48,11 @@ const players = [
     position: 'Uzun-Forvet',
     image: 'img/placeholder.png',
     speed: 86,
-    shooting: 87,
-    passing: 89,
+    shooting: 85,
+    passing: 87,
     dribbling: 86,
     defense: 82,
-    physical: 80
+    physical: 83
   },
   {
     name: 'Cihat',
